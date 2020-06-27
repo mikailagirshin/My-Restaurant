@@ -1,6 +1,13 @@
 <!--# My-Restaurant-->
-html {
+    <head>
+        <title>My Recipe</title>
+        <metacharset="utf-8">
+ 
+        <link rel="stylesheet" type="text/css" href="restaurant.css">
+ <style>   
+ html {
     background-color: white;
+    
  
 }
 body {
@@ -51,10 +58,66 @@ header li:first-child {
     float: right;
     padding-right: 30px;
     padding-top: 90px;
+ </style>
     
+ </head>
+    <body>
+        <header>
+            <div class="left">
+                <ul>
+                    <li><a href">Popular Recipes</a></li>
+                    <li><a href">Whats New</a>></li>
+                </ul>
+
+  </div>
+  <div class="right">
+                <ul>
+                    <li><a href">Categories</a></li>
+                    <li><a href">Meal Ideas</a>></li>
+                </ul>
+            
+  </div>
+
+  <div id="logo">
+                <img src="images/chefhat.png"/>
+                <p>My Recipes</p>
+            
+  </div>
+
+  <div>
+            
+  </div>
+
+  </header>
 
 
-}
+   </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
 
 
 
